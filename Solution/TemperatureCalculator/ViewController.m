@@ -1,8 +1,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (nonatomic, strong) IBOutlet UITextField *fahrenheitTextField;
-@property (nonatomic, strong) IBOutlet UILabel *celsiusLabel;
+@property (strong, nonatomic) IBOutlet UITextField *fahrenheitTextField;
+@property (strong, nonatomic) IBOutlet UILabel *celsiusLabel;
 @end
 
 @implementation ViewController

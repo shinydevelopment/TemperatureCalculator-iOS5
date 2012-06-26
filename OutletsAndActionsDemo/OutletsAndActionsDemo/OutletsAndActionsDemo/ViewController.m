@@ -1,7 +1,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-@property (nonatomic, strong) IBOutlet UILabel *label;
+@property (strong, nonatomic) IBOutlet UILabel *label;
 @end
 
 @implementation ViewController
